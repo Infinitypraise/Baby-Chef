@@ -1,0 +1,13 @@
+#main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.box{
+    background-color: red;
+    font-size: 30px;
+}
+.box1{
+    background-color: blue;
+    height: 110px;
+
+}

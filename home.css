@@ -1,0 +1,181 @@
+#and{
+    font-size: 300px;
+    color: white;
+}
+
+#and a{
+    margin-left: 90px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-image: linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.711)), url(E.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    height: 120px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+#menu:hover #dropdown{
+    display: block;
+}
+#menu{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+  
+}
+
+@media(max-width: 370px){
+    .nav ul li{
+        margin-left: 5px;
+         }
+}
+
+.nav ul li{
+     list-style-type: none;
+     margin-left: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.any  li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.body{
+    margin-left: 240px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gridBody{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+@media (min-width: 1200px){
+    .gridBody{
+    grid-template-columns: 2.5fr 1fr;
+    }  
+}
+@media (max-width: 950px){
+    .gridBody{
+        grid-template-columns: 1fr 1fr;
+    }  
+}
+@media (max-width: 700px){
+    .gridBody{
+        grid-template-columns: 1fr;
+    }
+}
+.title{
+    margin-top: 0;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.pic{
+    margin-bottom: 8px;
+}    
+#pic1 img{
+    width: 360px;
+    margin-right: 10px;
+}
+p{
+    font-family: Arial; 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 13px;
+   
+}
+p a{
+    text-decoration: none;
+    color: black;
+
+}
+p a:hover{text-decoration: underline;
+
+}
+#v1{
+    display: flex;
+}
+#drinkpic img{
+    margin-right: 10px;
+    width: 360px;
+}
+#v2{
+    display: flex;
+}
+.v3img img{
+    width: 360px;
+
+}
+.v1{
+    background-color: aqua;
+    padding: 20px;
+    color: black;
+    margin: 30px 30px 30px 30px;
+    font-size: 30px;
+}
+.v1:hover{
+    transform: scale(1.1);
+}
+.v1 a{
+    text-decoration: none;
+}
+
+.v3{
+    background-color: aqua;
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.v3:hover{
+    transform: scale(1.1);
+}    
+
+.v3 a{
+    text-decoration: none;
+}

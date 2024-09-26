@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-image: linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.711)), url(E.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    height: 120px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+
+}
+
+.nav ul{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    justify-content: space-between;
+     margin-bottom: 60px;
+}
+@media(max-width: 370px){
+    .nav ul li{
+        margin-left: 10px;
+         }
+}
+
+.nav ul li{
+     list-style-type: none;
+     margin-left: 20PX;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.any  li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+#text{
+    color: whitesmoke;
+    font-size: larger;
+}
+#text a{
+    text-decoration: none;
+    color: blue;
+}
+#text a:hover{
+    text-decoration: underline;
+}
+.image img{
+    width: 400px;
+}
+.image{
+    margin: 30px;
+    opacity: 0;
+    transition: opacity 30s ease-in;
+    animation:1s ease 1s normal forwards 1 fadein;
+    -webkit-animation:1s ease 1s normal forwards 1 fadein;
+    opacity:0
+}
+#dr{
+    background-image: url(drinks1.jpg);
+    size: 3000px;
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+#mainimg{
+    margin: 40px;
+    display: flex;
+}
+#text h1{
+    text-align: center;
+}

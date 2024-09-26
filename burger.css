@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{background-image: url(burg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nav ul{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.nav ul li{
+     list-style-type: none;
+     padding-left: 60px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    color: white;
+}
+.a{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+li{
+    list-style-type: none;
+    font-size: 19px;
+}
