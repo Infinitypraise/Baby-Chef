@@ -74,3 +74,36 @@ body{background-image: linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.711
     list-style-type: none;
     
 }
+@media (max-width: 400px){
+    .nav ul li{
+        margin-left: 5PX;
+        font-size: smaller;
+   }
+}
+   @media(max-width: 600px){
+    .logo{
+        height: 80px;
+   }
+}
+@media(max-width: 330px){
+    .logo{
+        height: 60px;
+   }
+}
+#mainDiv{
+    padding-right: auto;
+    font-size: 3vw;
+    padding: 10vw;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+.bodydiv{
+    background-color: aqua;
+    margin-top: 30px;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-bottom: 5vw;
+}
