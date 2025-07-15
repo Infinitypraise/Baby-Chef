@@ -3,48 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="food.css">
 	<title>Banana Smoothie</title>
+	<link rel="stylesheet" href="recipies.css">
 </head>
 <body>
-	<header>
-		<div class="nav">
-			<ul>
-				<li><a href="index.html" class="header">Dashboard</a></li>
-				<li><a href="home.html" class="header">Menu</a></li>
-				<li><a href="salad.html" class="header">Salad</a></li>
-				<li><a href="pasta.html" class="header">Pasta</a></li>
-				<li><a href="shawarma.html" class="header">Shawama</a></li>
-				<li><a href="burger.html" class="header">Burger</a></li>
-				<li><a href="Fries.html" class="header">Fries</a></li>
-			</ul>
-		</div>
-	<div class="a">INGREDIENTS</div>
-	<div>
-		<li>Banana (ripe)</li>
-		<li>Evaporated milk or can milk</li>
-		<li>Yogurt</li>
-		<li>Honey (optional)</li>
-		<li>Ice cubes (optional)</li>
-	</div>
-
-	<div class="a">EQUIPMENTS</div>
-	<div>
-		<li>Blender</li>
-		<li>Knife</li>
-		<li>Cutting board</li>
-		<li>Glass cup (for serving)</li>
-	</div>
-
-	<div class="a">INSTRUCTIONS</div>
-	<div>
-		<ol>
-			<li>Peel and slice the bananas using a knife and cutting board.</li>
-			<li>Add the banana slices, milk, yogurt, and honey (if using) into the blender.</li>
-			<li>Blend until smooth and creamy.</li>
-			<li>Add ice cubes and blend again if you want it chilled.</li>
-			<li>Pour into a glass cup and serve immediately.</li>
-		</ol>
-	</div>
+  <header class="nav">
+    <div id="logo">
+        <a href="index.html">
+        <img src="logo.png" class="logo">
+        </a>
+    </div>
+    <ul>
+        <li>
+            <a href="index.html" class="header">Dashboard</a>
+        </li>
+        <div id="menu">
+            <a class="header">Menu</a>
+            <div id="dropdown">
+                <li>
+                    <a href="food.html">Intercontinetal</a>
+                </li>
+                <li>
+                    <a href="locales.html">locales</a>
+                </li>
+                <li>
+                    <a href="drink.html">drinks</a>
+                </li>
+            </div>
+        </div>
+        <li><a href= "about.html" class="header">about us</a></li>
+    </ul>
+    </header>
+	<div id="mainDiv">
+        <h1>Banana Smoothie</h1>
+      <div id="Ingridients" class="bodydiv">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Banana (ripe)</li>
+            <li>Evaporated milk or can milk</li>
+            <li>Yogurt</li>
+            <li>Honey (optional)</li>
+            <li>Ice cubes (optional)</li>
+        </ul> 
+      </div>
+      <div id="equipments" class="bodydiv">
+        <h2>Equipments</h2>
+        <ul>
+            <li>Blender</li>
+            <li>Knife</li>
+            <li>Cutting board</li>
+            <li>Glass cup (for serving)</li>
+        </ul>
+      </div>
+      <div id="prepare" class="bodydiv">
+        <h2>How to prepare:</h2>
+        <ol>
+            <li>Peel and slice the bananas using a knife and cutting board.</li>
+            <li>Add the banana slices, milk, yogurt, and honey (if using) into the blender.</li>
+            <li>Blend until smooth and creamy.</li>
+            <li>Add ice cubes and blend again if you want it chilled.</li>
+            <li>Pour into a glass cup and serve immediately.</li>
+        </ol>
+      </div>
+      <div id="combo" class="bodydiv">
+        <h2>Enjoy with (optional):</h2>
+        <ul>
+            <li>Cookies</li>
+            <li>Granola</li>
+            <li>Fresh fruits</li>
+            <li><a href="salad.html">Salad</a></li>
+        </ul>
+      </div>
+    </div>
 </body>
 </html>
