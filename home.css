@@ -108,6 +108,20 @@ body{background-image: linear-gradient(rgba(0, 0, 0, 0.711), rgba(0, 0, 0, 0.711
     .gridBody{
         grid-template-columns: 1fr;
     }
+    .v3 {
+        padding: 20px;
+        margin: 30px 0;
+        font-size: 30px;
+    }
+    .v3img img {
+        width: 100%;
+        max-width: 360px;
+    }
+    .v1, .v3 {
+        font-size: 24px;
+        padding: 16px;
+        margin: 16px 0;
+    }
 }
 .title{
     margin-top: 0;
