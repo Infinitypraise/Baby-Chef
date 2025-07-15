@@ -1,50 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="food.css">
-	<title>Amala</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amala</title>
+    <link rel="stylesheet" href="recipies.css">
 </head>
 <body>
-	<header>
-		<div class="nav">
-				<ul>
-					<li><a href="index.html" class="header">Dashboard</a></li>
-					<li><a href="home.html" class="header">Menu</a></li>
-					<li><a href= "salad.html" class="header">Salad</a></li>
-					<li><a href="pasta.html" class="header">Pasta</a></li>
-					<li><a href="shawarma.html" class="header">Shawama</a></li>
-				   <li><a href="burger.html" class="header">Burger</a></li>
-					<li><a href="Fries.html" class="header">Fries</a></li>
-				</ul>
-		</div>
-	<div class="a">
-INGREDIENTS</div>
-<div>
-<li>Yam flour (Elubo)</li>
-<li>Water</li>
-<li>Soup of choice (Ewedu, Gbegiri, or any preferred soup)</li>
-</div>
-
-<div class="a">EQUIPMENTS</div>
-<div>
-<li>Pot</li>
-<li>Wooden spatula (omorogun)</li>
-<li>Bowl</li>
-<li>Stove or cooker</li>
-</div>
-
-<div class="a">INSTRUCTIONS</div>
-<div>
-<ol>
-<li>Boil water in a pot until it starts to bubble.</li>
-<li>Reduce the heat and gradually add yam flour while stirring continuously with the wooden spatula to avoid lumps.</li>
-<li>Keep stirring until the mixture becomes smooth and stretchy.</li>
-<li>If too thick, add a little hot water, cover, and allow to steam for a few minutes.</li>
-<li>Stir again until smooth and well-cooked.</li>
-<li>Serve hot with your preferred soup.</li>
-</ol>
-</div>
+  <header class="nav">
+    <div id="logo">
+        <a href="index.html">
+        <img src="logo.png" class="logo">
+        </a>
+    </div>
+    <ul>
+        <li>
+            <a href="index.html" class="header">Dashboard</a>
+        </li>
+        <div id="menu">
+            <a class="header">Menu</a>
+            <div id="dropdown">
+                <li>
+                    <a href="food.html">Intercontinetal</a>
+                </li>
+                <li>
+                    <a href="locales.html">locales</a>
+                </li>
+                <li>
+                    <a href="drink.html">drinks</a>
+                </li>
+            </div>
+        </div>
+        <li><a href="about.html" class="header">about us</a></li>
+    </ul>
+    </header>
+    <div id="mainDiv">
+        <h1>Amala</h1>
+      <div id="Ingridients" class="bodydiv">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Yam flour (Elubo)</li>
+            <li>Water</li>
+            <li>Soup of choice (Ewedu, Gbegiri, or any preferred soup)</li>
+        </ul> 
+      </div>
+      <div id="equipments" class="bodydiv">
+        <h2>Equipments</h2>
+        <ul>
+            <li>Pot</li>
+            <li>Wooden spatula (omorogun)</li>
+            <li>Bowl</li>
+            <li>Stove or cooker</li>
+        </ul>
+      </div>
+      <div id="prepare" class="bodydiv">
+        <h2>How to prepare:</h2>
+        <ol>
+            <li>Boil water in a pot until it starts to bubble.</li>
+            <li>Reduce the heat and gradually add yam flour while stirring continuously with the wooden spatula to avoid lumps.</li>
+            <li>Keep stirring until the mixture becomes smooth and stretchy.</li>
+            <li>If too thick, add a little hot water, cover, and allow to steam for a few minutes.</li>
+            <li>Stir again until smooth and well-cooked.</li>
+            <li>Serve hot with your preferred soup.</li>
+        </ol>
+      </div>
+        <div id="Proteins" class="bodydiv">
+          <h2>Proteins:</h2>
+          <ul>
+            <li>Beef</li>
+            <li>Fish</li>
+            <li>Goat meat</li>
+            <li>Assorted meat</li>
+            <li><a href="Chicken.html">Chicken</a></li>
+          </ul>
+        </div>
+        <div id="combo" class="bodydiv">
+          <h2>Also with a combo of (optional):</h2>
+          <ul>
+            <li>Table water</li>
+            <li>Soft Drinks</li>
+            <li><a href="chapman.html">Chapman</a></li>
+            <li><a href="B-smoothie.html">Banana smoothies</a></li>
+            <li><a href="salad.html">Salad</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
